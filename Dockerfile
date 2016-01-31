@@ -21,10 +21,10 @@ COPY content/storage /ghost/content/storage
 # Set environment variables.
 ENV NODE_ENV production
 
-ENV PORT 2368
+ENV PORT 5000
 
 # Expose ports.
-EXPOSE 2368
+EXPOSE 5000
 
 # Define working directory.
 WORKDIR /ghost
